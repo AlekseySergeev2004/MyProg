@@ -74,6 +74,7 @@ PROJECT_ICON           =
 # left blank the current directory will be used.
 
 
+
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
 # and will distribute the generated files over these directories. Enabling this
@@ -521,8 +522,6 @@ TIMESTAMP              = NO
 # Note: This will also disable the warnings about undocumented members that are
 # normally produced when WARNINGS is set to YES.
 # The default value is: NO.
-
-
 
 # If the EXTRACT_PRIVATE tag is set to YES, all private members of a class will
 # be included in the documentation.
@@ -1994,7 +1993,6 @@ EXTRA_SEARCH_MAPPINGS  =
 # If the GENERATE_LATEX tag is set to YES, doxygen will generate LaTeX output.
 # The default value is: YES.
 
-
 # The LATEX_OUTPUT tag is used to specify where the LaTeX docs will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
 # it.
@@ -2898,7 +2896,7 @@ MSCGEN_TOOL            =
 
 MSCFILE_DIRS           =
 
-PROJECT_NAME           = "MyProject"
+PROJECT_NAME           = "MyProg"
 OUTPUT_DIRECTORY       = "docs"
 GENERATE_LATEX         = NO
 EXTRACT_ALL            = YES
